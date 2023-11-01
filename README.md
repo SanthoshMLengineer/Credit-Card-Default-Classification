@@ -44,6 +44,20 @@ The mainly divided into three parts
 │   └── preprocess_utils.py
 │   └── logging_utils.py
 ```
-## Istallation
-
 ## Technologies Used
+1. Pandas
+2. Matplotlib
+3. Seaborn
+4. Scikit-Learn
+5. Catboost
+6. XGBoost
+7. Flask
+
+## Istallation
+The Code is written in Python 3.10.1. If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
+
+```bash
+pip install -r requirements.txt
+cd flaskSrc
+python app.py
+```
