@@ -1,0 +1,61 @@
+body { 
+  background-color: white;
+}
+
+#title {
+  color: #050131;
+  font-size: 28px;
+  margin-left: 36%;
+}
+
+#formregion {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+#textbutton{
+  width: 30%;
+  height: 40px;
+  color: #050131;
+  border-color: #050131;
+  text-align: center;
+}
+
+#PAY_SEPT{
+  width: 30%;
+  height: 40px;
+  color: #050131;
+  border-color: #050131;
+  text-align: center;
+  margin: 2%;
+}
+
+
+#PAY_AMT_SEPT{
+  width: 30%;
+  height: 40px;
+  color: #050131;
+  border-color: #050131;
+  text-align: center;
+  margin: 2%;
+}
+
+#PAY_AMT_MAY{
+  width: 30%;
+  height: 40px;
+  color: #050131;
+  border-color: #050131;
+  text-align: center;
+  margin: 2%;
+}
+
+#submitbutton{
+	background: white;
+	border-color: #050131;
+	width: 40%;
+	height: 40px;
+	color: #050131;
+	margin-left: 28%;
+}
+

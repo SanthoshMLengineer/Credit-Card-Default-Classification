@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Card Default Classification</title>
+	<link rel="stylesheet" type="text/css" href="static/index.css">
+</head>
+<body>
+	<header id="title">Credit Card Default Classification</header>
+
+	<div class="results">
+			<h4 class="text-center" style="color:#050131;margin-left: 38%;margin-top: 5%;">
+				{{prediction}}
+			</h4>
+	</div>
+	<div id = "formregion">
+		<form action="/predictionFromModel" method="post">
+			<input type="text" id="textbutton" name="LIMIT_BAL" 
+			placeholder="LIMIT_BAL" required="required">
+			<input type="number" id="PAY_SEPT" name="PAY_SEPT" 
+			placeholder="PAY_SEPT or PAY_0" min="-2" max="9"
+			required="required">
+			<input type="text" id="textbutton" name="BILL_AMT_MAY" 
+			placeholder="BILL_AMT_MAY or BILL_AMT5" required="required"><br>
+
+			<input type="text" id="textbutton" name="BILL_AMT_APRIL" placeholder="BILL_AMT_APRIL or BILL_AMT6" required="required">
+			<input type="text" id="PAY_AMT_SEPT" name="PAY_AMT_SEPT" placeholder="PAY_AMT_SEPT or PAY_AMT1" required="required">
+			<input type="text" id="textbutton" name="PAY_AMT_JULY" 
+			placeholder="PAY_AMT_JULY or PAY_AMT3" required="required"><br>
+
+			<input type="text" id="textbutton" name="PAY_AMT_JUNE" 
+			placeholder="PAY_AMT_JUNE or PAY_AMT4" required="required">
+			<input type="text" id="PAY_AMT_MAY" name="PAY_AMT_MAY" 
+			placeholder="PAY_AMT_MAY or PAY_AMT5" required="required">
+			<input type="text" id="textbutton" name="PAY_AMT_APRIL" placeholder="PAY_AMT_APRIL or PAY_AMT6" required="required"><br><br><br>
+
+			<button id="submitbutton">predict</button>
+		</form>
+	</div>
+</body>
+</html>
