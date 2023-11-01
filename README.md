@@ -1,13 +1,5 @@
 # Credit-Card-Default-Classification
 
-## Table of Content
-  * [Problem Statement](#Problem Statement)
-  * [Dataset Information](#Dataset Information)
-  * [Technical Details](#Technical Details)
-  * [Project Structure](#Project Structure)
-  * [Installation](#Installation)
-  * [Technologies Used](#Technologies Used)
-
 ## Problem Statement
 Financial threats are displaying a trend about the credit risk of commercial banks as the
 incredible improvement in the financial industry has arisen. In this way, one of the biggest
@@ -52,4 +44,6 @@ The mainly divided into three parts
 │   └── preprocess_utils.py
 │   └── logging_utils.py
 ```
+## Istallation
 
+## Technologies Used
