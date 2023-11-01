@@ -1,0 +1,185 @@
+INFO - 2023-11-01 10:13:16,713
+ model loaded successfully
+
+
+INFO - 2023-11-01 10:17:52,424
+ model loaded successfully
+
+
+INFO - 2023-11-01 10:17:52,531
+ predicted from the model
+
+
+INFO - 2023-11-01 10:28:06,580
+ model loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,581
+ all inputs are in required format
+
+
+INFO - 2023-11-01 10:28:06,582
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,583
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,583
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,583
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,584
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,586
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,586
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,587
+ min max scaling value json file loaded successfully
+
+
+INFO - 2023-11-01 10:28:06,589
+ successfully completed preprocessing the inputs
+
+
+INFO - 2023-11-01 10:33:40,575
+ model loaded successfully
+
+
+INFO - 2023-11-01 10:33:40,576
+ all inputs are in required format
+
+
+INFO - 2023-11-01 10:33:40,580
+ successfully completed preprocessing the inputs
+
+
+INFO - 2023-11-01 10:33:43,529
+ model loaded successfully
+
+
+INFO - 2023-11-01 10:33:43,529
+ all inputs are in required format
+
+
+INFO - 2023-11-01 10:33:43,533
+ successfully completed preprocessing the inputs
+
+
+INFO - 2023-11-01 12:20:22,842
+ model loaded successfully
+
+
+ERROR - 2023-11-01 12:20:22,866
+ inputs are not in numeric type : invalid literal for int() with base 10: 'santhosh'
+
+Traceback (most recent call last):
+  File "E:\INTERSHIP\CREDIT CARD DEFAULT CLASSIFICATION\flaskSrc\preprocess_utils.py", line 97, in input_data_checker
+    dict_input_data[column_name] = int(value)
+ValueError: invalid literal for int() with base 10: 'santhosh'
+WARNING - 2023-11-01 12:20:22,898
+ Invalid data type numeric type expected
+
+
+INFO - 2023-11-01 12:20:55,791
+ model loaded successfully
+
+
+ERROR - 2023-11-01 12:20:55,792
+ inputs are not in numeric type : invalid literal for int() with base 10: 'santhosh'
+
+Traceback (most recent call last):
+  File "E:\INTERSHIP\CREDIT CARD DEFAULT CLASSIFICATION\flaskSrc\preprocess_utils.py", line 97, in input_data_checker
+    dict_input_data[column_name] = int(value)
+ValueError: invalid literal for int() with base 10: 'santhosh'
+WARNING - 2023-11-01 12:20:55,793
+ Invalid data type numeric type expected
+
+
+INFO - 2023-11-01 12:24:04,619
+ model loaded successfully
+
+
+ERROR - 2023-11-01 12:24:04,620
+ inputs are not in numeric type : invalid literal for int() with base 10: 'santhosh'
+
+Traceback (most recent call last):
+  File "E:\INTERSHIP\CREDIT CARD DEFAULT CLASSIFICATION\flaskSrc\preprocess_utils.py", line 97, in input_data_checker
+    dict_input_data[column_name] = int(value)
+ValueError: invalid literal for int() with base 10: 'santhosh'
+WARNING - 2023-11-01 12:24:04,621
+ Invalid data type numeric type expected
+
+
+INFO - 2023-11-01 12:25:54,368
+ model loaded successfully
+
+
+INFO - 2023-11-01 12:25:54,369
+ all inputs are in required format
+
+
+INFO - 2023-11-01 12:25:54,549
+ successfully completed preprocessing the inputs
+
+
+INFO - 2023-11-01 19:13:36,551
+ model loaded successfully
+
+
+INFO - 2023-11-01 19:13:36,574
+ all inputs are in required format
+
+
+INFO - 2023-11-01 19:13:36,712
+ successfully completed preprocessing the inputs
+
+
+INFO - 2023-11-01 19:15:11,481
+ model loaded successfully
+
+
+INFO - 2023-11-01 19:15:11,482
+ all inputs are in required format
+
+
+INFO - 2023-11-01 19:15:11,488
+ successfully completed preprocessing the inputs
+
+
+INFO - 2023-11-01 19:16:04,268
+ model loaded successfully
+
+
+INFO - 2023-11-01 19:16:04,268
+ all inputs are in required format
+
+
+INFO - 2023-11-01 19:16:04,272
+ successfully completed preprocessing the inputs
+
+
+INFO - 2023-11-01 19:16:39,066
+ model loaded successfully
+
+
+INFO - 2023-11-01 19:16:39,068
+ all inputs are in required format
+
+
+INFO - 2023-11-01 19:16:39,073
+ successfully completed preprocessing the inputs
+
+
